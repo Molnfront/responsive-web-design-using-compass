@@ -12,7 +12,7 @@
 
 
 // Reset --------------------------------------------------------------------
-@include global-reset
++global-reset
 
 
 // Flexible Grid ---------------------------------------------------------------------
@@ -157,7 +157,7 @@ hgroup
 img, embed, object, video
   max-width: 100%
   
-@mixin main-menu
+=main-menu
   float: right          
   li
     font-family: "HelveticaNeueBold"
@@ -191,7 +191,7 @@ img, embed, object, video
 
 
 // Mixins ----------------------------------------------------------------  
-@mixin yellow-btn
+=yellow-btn
   font-family: 'HelveticaNeueBold'
   color: #fff
   text-decoration: none
@@ -210,5 +210,5 @@ img, embed, object, video
   &:hover
     +linear-gradient(color_stops(rgb(222,162,30),rgb(234,165,31),rgb(229,151,26),rgb(214,136,24)), top, image-url('noise.png')) 
        
-@mixin debug
+=debug
   background-color: rgba(red,0.6)
