@@ -17,17 +17,14 @@
 
 // Flexible Grid ---------------------------------------------------------------------
 
+$total-width: 1180px
 $total-cols: 20
 
-// Remember the formula:
-// Target ÷ context 
-// Then move the "." two decimals to the right.
+$col-width-abs: 40px
+$col-width: $col-width-abs / $total-width * 100%
 
-// 40 ÷ 1180 = col-width
-$col-width: 3.3898305084746%
-
-// 20 ÷ 1180 = gutter-width
-$gutter-width: 1.6949152542373%
+$gutter-width-abs: 20px
+$gutter-width: $gutter-width-abs / $total-width * 100%
 
 $side-gutter-width: 0
 $show-grid-backgrounds: true
